@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #EEF5DB; /* Beige background */
+    color: #4F6367; /* Stormcloud for text */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #4F6367; 
+}
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-header {
+    background-color: #4F6367; /* Stormcloud for table header */
+    color: white;
+}
+
+.table-cell, .table-header-cell {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row:nth-child(even) {
+    background-color: #B8D8D8; /* Columbia Blue for alternating rows */
+}
+
+/* Buttons */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FE5F55; /* Sunset Orange on hover */
+    color: white;
+}
+
+#add-row-btn {
+    background-color: #7A9E9F; /* Weldon Blue for the add row button */
+    color: white;
+}
+
+#reset-btn {
+    background-color: #FE5F55; /* Sunset Orange for reset button */
+    color: white;
+}
+
+#calculate-btn {
+    background-color: #7A9E9F; /* Weldon Blue for calculate GPA button */
+    color: white;
+}
+
+/* dropdowns for select and input */
+select, input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background-color: #FE5F55; /* Sunset Orange for remove button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #4F6367; /* Stormcloud on hover */
+}
+
+/* GPA Calculation */
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #4F6367; /* Stormcloud */
+}
