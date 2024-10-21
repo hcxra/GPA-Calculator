@@ -94,3 +94,35 @@ h2 {
     font-size: 1.5em;
     color: #4F6367; /* Stormcloud */
 }
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .table-container {
+        width: 100%;
+        display: block;
+        overflow-x: auto; /* Allows table to scroll on small screens */
+        white-space: nowrap; /* Prevents cells from wrapping */
+    }
+
+    .table-header-cell, .table-cell {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    select, input {
+        width: 100%; /* inputs and dropdowns fill the width on mobile */
+    }
+
+    .table-cell, .table-header-cell {
+        font-size: 12px; 
+    }
+}
